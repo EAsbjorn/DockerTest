@@ -2,7 +2,7 @@ version: '2.0'
 
 services:
     Website1:
-        image: ghcr.io/samoht89/DockerTest:latest #change samoht89 to your username and website1 to your respitory name
+        image: ghcr.io/EAsbjorn/DockerTest:latest #change samoht89 to your username and website1 to your respitory name
         deploy:
         labels:labels: [com.centurylinklabs.watchtower.enable=true]
         container_name: website1 #Your firstname-"usernameAtSchool"
